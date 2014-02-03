@@ -5,7 +5,7 @@ import glanceclient.v2.client as glclient
 import novaclient.v1_1.client as nvclient
 from credentials import get_keystone_creds
 from credentials import get_nova_creds
-if __name__ == '__main__':ho
+
 creds = get_keystone_creds()
 nova_creds = get_nova_creds()
 
